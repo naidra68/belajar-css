@@ -23,3 +23,8 @@ Lihat tanda pagar pada kata `#pesan`, inilah yang membedakan antara id selector 
 Berdasarkan pengalaman developers, **class selector** digunakan lebih sering daripada **id selector**. Alasan-nya akan jelas jika sudah masuk ke prioritas urutan di css yang disebut sebagai cascade dan inheritance.
 
 Biasanya id selector digunakan paling sering ketika sudah menggunakan javascript untuk manipulasi DOM.
+
+Berikut ringkasan singkat mengenai id selector.
+- Id selector harus unik. Jangan gunakan 2 tag HTML yang memiliki id selector sama. Gunakan Id selector hanya digunakan untuk 1 element HTML saja.
+- Developers dan Programmer memiliki aturan tak tertulis bahwa untuk menulis id selector menggunakan penulisan camelCase. **camelCase** merupakan istilah penulisan yang menjadikan awalan kata kedua, ketiga dan seterus-nya menggunakan huruf besar.
+- Id selector cukup penting digunakan jika saya hanya membuat selector tersebut berlaku pada satu element pada setiap halaman.

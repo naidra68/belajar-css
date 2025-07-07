@@ -1,0 +1,31 @@
+/* [href] {
+    color: red;
+} */
+
+/* [title] {
+    color: green;
+} */
+
+/* li[title] {
+    color: magenta;
+} */
+
+/* [title="belajar javascript"] {
+    color: yellow;
+} */
+
+/* [title~="belajar"] {
+    color: blue;
+} */
+
+/* [title*="java"] {
+    color: orange;
+} */
+
+/* [href^="https"] {
+    color: green;
+} */
+
+/* [href$=".com"] {
+    color: red;
+} */
