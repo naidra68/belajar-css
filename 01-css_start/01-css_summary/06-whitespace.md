@@ -30,4 +30,4 @@ h1 .first {
 }
 ```
 
-Selector h1.first artinya cari seluruh paragraf yang memiliki atribut class="first", sedangkan selector h1 .first artinya cari seluruh tag HTML yang memiliki class="first" dan berada di dalam sebuah paragraf. Kesimpulannya, tanda spasi sangat berpengaruh.
+Selector h1.first berarti cari seluruh paragraf yang memiliki atribut class="first", sedangkan selector h1 .first berarti cari seluruh tag HTML yang memiliki class="first" dan berada di dalam sebuah paragraf. Kesimpulannya, tanda spasi sangat berpengaruh.

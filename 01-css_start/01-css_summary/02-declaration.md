@@ -6,4 +6,4 @@ h1 {
 }
 ```
 
-declration merupakan kumpulan prrintah css yang berada ditanda kurung kurawal. Semua isi yang berada didalam kurung kurawal maka disebut sebagai declaration.
+declration merupakan kumpulan perintah CSS yang berada ditanda kurung kurawal (`{}`). Semua isi yang berada didalam kurung kurawal maka disebut sebagai declaration.
