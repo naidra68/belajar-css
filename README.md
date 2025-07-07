@@ -6,8 +6,6 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
 
 ## Link Tree
 
-## Link Tree
-
 1. [01-selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector)
     - [01-universal_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/01-universal_selector)
     - [02-element_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/02-element_selector)
