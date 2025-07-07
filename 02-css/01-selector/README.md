@@ -12,11 +12,11 @@ Banyak pemula seperti saya yang hanya fokus terhadap CSS, namun tidak melihat st
 
 ## Link Tree
 
-1. [01-selector](https://www.example.com)
-    1. [01-universal_selector](https://www.example.com)
-    2. [02-element_selector](https://www.example.com)
-    3. [03-class_selector](https://www.example.com)
-    4. [04-id_selector](https://www.example.com)
-    5. [05-attribute_selector](https://www.example.com)
-    6. [06-universal_selector](https://www.example.com)
-    7. [07-universal_selector](https://www.example.com)
+1. [01-selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector)
+    1. [01-universal_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/01-universal_selector)
+    2. [02-element_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/02-element_selector)
+    3. [03-class_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/03-class_selector)
+    4. [04-id_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/04-id_selector)
+    5. [05-attribute_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/05-attribute_selector)
+    6. [06-group_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/06-group_selector)
+    7. [07-universal_selector](https://github.com/naidra68/belajar-css/tree/main/02-css/01-selector/01-universal_selector)
