@@ -1,0 +1,14 @@
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-left: 50px;
+    font-size: 18px;
+}

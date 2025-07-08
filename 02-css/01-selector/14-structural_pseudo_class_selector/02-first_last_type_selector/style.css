@@ -1,0 +1,15 @@
+/* p:first-child{
+    color: red;
+}
+p:last-child{
+    color: blue;
+} */
+
+
+
+p:first-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: blue;
+}

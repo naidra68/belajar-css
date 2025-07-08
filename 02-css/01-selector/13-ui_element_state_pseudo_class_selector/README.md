@@ -1,4 +1,4 @@
-# UI Element State Pesudo Class Selector
+# UI Element State Pseudo Class Selector
 
 > Saat melihat file style css akan terlihat bahwa semua code css sudah di comment semua dan ketika dijalankan tidak akan tampil style-nya. Ini digunakan agar tidak terjadi timpa menimpa <s>text</s> style, karena css ada penjelasan mengenai cascade dan inheritance.
 
