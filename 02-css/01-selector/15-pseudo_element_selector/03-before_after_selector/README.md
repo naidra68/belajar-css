@@ -32,4 +32,33 @@ a::after {
 }
 ```
 
-Jika dijalankan, akan ada penambahan kalimat diawal dan diakhir. Fungsi dari `::before` dan `::after` tidak hanya sederhana seperti itu. Fungsi ini sangat digunakan ketika membuat web kompleks. Animasi CSS keren juga dapat dibuat dengan memanfaatkan fungsi dari kedua pseudo element ini.
+Jika dijalankan, akan ada penambahan kalimat diawal dan diakhir. 
+
+
+Contoh lain penggunaan 2 pseudo element ini. Saya akan membuat sebuah tulisan nomer urut mulai dari 1,2,3 dan seterusnya tergantung dari berapa banyak-nya tag `<h3>`.
+
+berikut contoh code-nya
+
+```html
+<h3>Nomer</h3>
+<h3>Nomer</h3>
+<h3>Nomer</h3>
+<h3>Nomer</h3>
+<h3>Nomer</h3>
+```
+
+```css
+
+h3::after {
+    content: " Ke - " counter(urutan);
+}
+
+h3 {
+    counter-increment: urutan;
+}
+
+```
+
+
+
+Fungsi dari `::before` dan `::after` tidak hanya sederhana seperti itu. Fungsi ini sangat digunakan ketika membuat web kompleks. Animasi CSS keren juga dapat dibuat dengan memanfaatkan fungsi dari kedua pseudo element ini.

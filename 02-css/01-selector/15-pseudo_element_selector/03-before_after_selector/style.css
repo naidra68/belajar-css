@@ -4,3 +4,11 @@ a::before {
 a::after {
     content: ' [pemula]';
 }
+
+h3::after {
+    content: " Ke - " counter(urutan);
+}
+
+h3 {
+    counter-increment: urutan;
+}
