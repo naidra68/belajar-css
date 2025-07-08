@@ -1,0 +1,6 @@
+a::before {
+    content: 'Belajar ';
+}
+a::after {
+    content: ' [pemula]';
+}
