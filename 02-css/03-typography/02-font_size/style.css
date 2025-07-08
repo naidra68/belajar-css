@@ -1,0 +1,44 @@
+/* p {
+    font-size: 36px;
+} */
+
+/* .px {font-size: 24px;}
+.mm {font-size: 12mm;}
+.cm {font-size: 1.5cm;}
+.pt {font-size: 18pt;}
+.in {font-size: 0.5in;}
+.pc {font-size: 2.2pc;} */
+
+/* .percent {
+    font-size: 120%;
+}
+body {
+    font-size: 16px;
+}
+div {
+    font-size: 110%;
+} */
+
+
+/* .em {
+    font-size: 1.1em;
+}
+body {
+    font-size: 16px;
+}
+div {
+    font-size: 1.1em;
+} */
+
+html {
+    font-size: 20px;
+}
+body {
+    font-size: 16px;
+}
+.satu {
+    font-size: 1em;
+}
+.dua {
+    font-size: 1rem;
+}
