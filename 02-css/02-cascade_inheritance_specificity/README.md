@@ -8,3 +8,9 @@ Meskipun begitu, ada kemungkinan perbedaan style untuk setiap web browser. Hal i
 
 Untuk mengatasi semua ini maka terciptalah teknik yang disebut sebagai **CSS Reset**. CSS reset dipakai untuk menghapus seluruh style bawaan web browser sehingga saya bisa mulai mendesain halaman HTML dari nol.
 
+## Link Tree
+
+- [Cascading](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/01-cascading.md)
+- [Inheritance](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/02-inheritance.md)
+- [Specificity](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/03-specificity.md)
+- [!important](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/04-important.md)
