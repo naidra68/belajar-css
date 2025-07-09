@@ -1,0 +1,7 @@
+@font-face {
+    font-family: myLora;
+    src: url('LORA-REGULAR.TTF');
+}
+body {
+    font-family: "myLora";
+}
