@@ -1,0 +1,20 @@
+.satu {
+    font: 18px sans-serif;
+}
+.dua {
+    font: bold 12px Arial;
+}
+.tiga {
+    font: 400 italic 20px sans-serif;
+}
+.empat {
+    font: italic small-caps bolder 16px/2 cursive;
+}
+
+.pertama {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.kedua {
+    font: 20px sans-serif;
+}
