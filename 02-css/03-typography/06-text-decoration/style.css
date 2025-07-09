@@ -1,0 +1,36 @@
+p {font-family: sans-serif;}
+
+.underline {text-decoration: underline;}
+.overline {text-decoration: overline;}
+.line-trought {text-decoration: line-through;}
+.none {text-decoration: none;}
+.all {text-decoration: underline overline line-through;}
+
+
+/* Membuat navbar sederhana */
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+ul li a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.satu {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+.dua {
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+.tiga {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: hsla(240, 100%, 50%, 0.9);
+}
