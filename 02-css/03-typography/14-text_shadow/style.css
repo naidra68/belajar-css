@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.satu {text-shadow: 15px 0px;}
+.dua {text-shadow: -20px 0px;}
+.tiga {text-shadow: 15px 15px;}
+
+.empat {text-shadow: 10px 15px 2px;}
+.lima {text-shadow: -10px 5px 10px;}
+.enam {text-shadow: 20px 15px 5px;}
+
+.tujuh {text-shadow: 10px 15px 5px red;}
+.delapan {text-shadow: 10px 0px 5px green;}
+.sembilan {text-shadow: 35px 15px 5px blue;}
+
+.pertama {
+    text-shadow: 4px 3px 0px red,
+                 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.kedua {
+    text-shadow: -10px 10px 0px #ff00ff,
+                 -20px 20px 0px #00ff00;
+}
+.ketiga {
+    text-shadow: 1px 1px 2px black,
+                 0 0 1em blue,
+                 0 0 0.2em blue;
+}
+.keempat {
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0, 0, 0, 0.15),
+                 0px 24px 2px rgba(0, 0, 0, 0.1),
+                 0px 34px 30px rgba(0, 0, 0, 0.1);
+}
