@@ -1,0 +1,12 @@
+.satu {line-height: 1.2em;}
+.dua {line-height: 140%;}
+.tiga {line-height: 1.9;}
+
+.pertama {
+    line-height: 50px;
+    background-color: green;
+}
+.kedua {
+    line-height: 150px;
+    background-color: tomato;
+}
