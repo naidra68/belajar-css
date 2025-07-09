@@ -1,0 +1,8 @@
+.satu {text-indent: 40px;}
+.dua {text-indent: 1em;}
+.tiga {text-indent: 1.5rem;}
+.empat {text-indent: 50%;}
+.lima {
+    text-indent: -100rem;
+    background-color: magenta;
+}
