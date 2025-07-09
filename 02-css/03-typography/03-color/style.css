@@ -1,0 +1,42 @@
+/* h1, p {
+    color: white;
+    background-color: red;
+} */
+
+p {font-size: 30px;}
+.magenta {color: magenta;}
+.cyan {color:cyan;}
+.tomato {color:tomato;}
+.darkblue {color:darkblue;}
+.firebrick {color:firebrick;}
+.chocolate {color:chocolate;}
+
+.satu{color: #FFFFFF;}
+.dua{color: #FF0000;}
+.tiga{color: #00FF00;}
+.empat{color: #FFFF00;}
+.lima{color: #0000FF;}
+
+.rgb1 {color: rgb(255, 255, 255);}
+.rgb2 {color: rgb(255, 0, 0);}
+.rgb3 {color: rgb(0, 255, 0);}
+.rgb4 {color: rgb(255, 255, 0);}
+.rgb5 {color: rgb(0, 0, 255);}
+
+.rgba1 {color: rgba(255,0,0,1);}
+.rgba2 {color: rgba(255,0,0,0.8);}
+.rgba3 {color: rgba(255,0,0,0.6);}
+.rgba4 {color: rgba(255,0,0,0.4);}
+.rgba5 {color: rgba(255,0,0,0.2);}
+
+.hsl1 {color: hsl(360,0%,100%);}
+.hsl2 {color: hsl(0,100%,50%);}
+.hsl3 {color: hsl(120,100%,25%);}
+.hsl4 {color: hsl(67, 100%, 50%);}
+.hsl5 {color: hsl(240,100%,50%);}
+
+.hsla1 {color: hsla(0,100%,50%,1);}
+.hsla2 {color: hsla(0,100%,50%,0.8);}
+.hsla3 {color: hsla(0,100%,50%,0.6);}
+.hsla4 {color: hsla(0,100%,50%,0.4);}
+.hsla5 {color: hsla(0,100%,50%,0.2);}
