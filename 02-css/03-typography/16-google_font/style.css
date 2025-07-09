@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins';
+}
+
+.satu {
+    font-style: italic;
+}
+.dua {
+    font-weight: bold;
+}
+.tiga {
+    font-style: italic;
+    font-weight: bold;
+}
