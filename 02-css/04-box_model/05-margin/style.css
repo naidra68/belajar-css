@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.m {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+}
+
+.satu {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.dua {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+}
+
+.tiga {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+}
+
+.empat {margin: 20px 40px;}
+.lima {margin: 0 0 60px 80px;}
+.enam {margin: 0 0 0 120px;}
+
+.mc {
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.pertama {margin: 20px;}
+.kedua {margin: 20px;}
+.ketiga {margin-bottom: 20px;}
+.keempat {margin-top: 40px;}
+
+.ma {
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.tujuh {margin: 0 auto;}
