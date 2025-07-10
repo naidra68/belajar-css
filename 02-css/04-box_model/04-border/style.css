@@ -1,0 +1,87 @@
+div {
+    width: 250px;
+    height: 200px;
+}
+
+.satu {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: red;
+
+    border-bottom-width: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: blue;
+
+    border-left-width: 15px;
+    border-left-style: solid;
+    border-left-color: green;
+
+    border-right-width: 5px;
+    border-right-style: dashed;
+    border-right-color: orange;
+}
+.dua {
+    border-top: 5px solid red;
+    border-bottom: 10px dotted blue;
+    border-left: 15px solid green;
+    border-right: 5px dashed orange;
+}
+.tiga {
+    border: 5px dotted purple;
+}
+
+.bs {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.bs-1 {border: 6px solid black;}
+.bs-2 {border: 6px dashed black;}
+.bs-3 {border: 6px dotted black;}
+.bs-4 {border: 6px double black;}
+.bs-5 {border: 6px groove black;}
+.bs-6 {border: 6px ridge black;}
+.bs-7 {border: 6px inset black;}
+.bs-8 {border: 6px outset black;}
+
+
+.br {
+    width: 200px;
+    height: 200px;
+    border: 4px solid red;
+    float: left;
+    margin: 10px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.br-1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+.br-2 {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 4em;
+}
+
+.br1 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.br-3 {border-radius: 20px;}
+.br-4 {border-radius: 10px 20px;}
+.br-5 {border-radius: 10px 20px 30px;}
+.br-6 {border-radius: 10px 20px 30px 40px;}
