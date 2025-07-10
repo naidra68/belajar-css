@@ -58,4 +58,15 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [14-text_shadow](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/14-text_shadow)
     - [15-font_external](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/15-font_external)
     - [16-google_font](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/16-google_font)
+4. [04-Box_Model](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model)
+    - [01-width_height](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/01-width_height)
+    - [02-overflow](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/02-overflow)
+    - [03-padding](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/03-padding)
+    - [04-border](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/04-border)
+    - [05-margin](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/05-margin)
+    - [06-reset](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/06-reset)
+    - [07-box_sizing](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/07-box_sizing)
+    - [08-outline](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/08-outline)
+    - [09-vw_vh](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-vw_vh)
+
 Terima kasih sudah berkunjung :heart:
