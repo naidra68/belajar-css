@@ -1,0 +1,25 @@
+.satu {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.dua {
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 30px;
+    background-color: red;
+}
+
+.sn {
+    width: 400px;
+    border: 1px solid red;
+    background-color: cyan;
+}
+
+.nilai1 {padding: 20px;}
+.nilai2 {padding: 15px 20px;}
+.nilai3 {padding: 5px 30px 10px;}
+.nilai4 {padding: 5px 10px 15px 20px;}
