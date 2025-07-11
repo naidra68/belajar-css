@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 10px;
+    background-image: url('../img/bluebeerry.png');
+    background-repeat: no-repeat;
+}
+
+/* 1 Nilai */
+.satu {background-size: 300px;}
+
+/* 2 Nilai */
+.dua {background-size: 250px 500px;}
+
+/* percent */
+.tiga {
+    background-repeat: repeat;
+    background-size: 50% 50%;
+}
+
+/* contain */
+.empat {
+    width: 500px;
+    height: 200px;
+    background-image: url('../img/bluebarry100x100.png');
+    background-size: contain;
+}
+.lima {
+    width: 500px;
+    height: 200px;
+    background-image: url('../img/bluebarry100x100.png');
+    background-size: cover;
+}
