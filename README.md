@@ -68,5 +68,15 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [07-box_sizing](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/07-box_sizing)
     - [08-outline](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/08-outline)
     - [09-vw_vh](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-vw_vh)
+5. [05-background](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background)
+    - [01-background_color](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/01-background_color)
+    - [02-background_image](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/02-background_image)
+    - [03-background_repeat](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/03-background_repeat)
+    - [04-background_position](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/04-background_position)
+    - [05-background_size](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/05-background_size)
+    - [06-background_attachment](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/06-background_attachment)
+    - [07-background_origin_clip](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/07-background_origin_clip)
+    - [08-background_blend_mode](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/08-background_blend_mode)
+    - [09-background](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/09-background)
 
 Terima kasih sudah berkunjung :heart:
