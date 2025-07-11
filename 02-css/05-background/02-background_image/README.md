@@ -29,10 +29,10 @@ span {
     padding: 0.5em;
     border-radius: 5px;
 }
-.satu {background-image: url('img/jeruk.jpg');}
-.dua {background-image: url('img/strawberry.png');}
-.tiga {background-image: url('img/kiwi.png');}
-.empat {background-image: url('img/bluebeerry.png');}
+.satu {background-image: url('../img/jeruk.jpg');}
+.dua {background-image: url('../img/strawberry.png');}
+.tiga {background-image: url('../img/kiwi.png');}
+.empat {background-image: url('../img/bluebeerry.png');}
 ```
 
 Jika dijalankan, saya membuat tampilan beberapa gambar buah dengan keterangan dari gambar tersebut.
@@ -49,8 +49,8 @@ berikut contoh penerapan-nya
 
 ```css
 .multiple {
-    background-image: url('img/kiwi100x100.png'),
-                      url('img/jeruk.jpg');
+    background-image: url('../img/kiwi100x100.png'),
+                      url('../img/jeruk.jpg');
 }
 ```
 
