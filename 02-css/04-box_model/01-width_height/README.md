@@ -1,7 +1,7 @@
 # Width and Height
 
 Pembahasan mengenai `width` and `weight` akan merujuk ke lapisan terdalam Box Model yaitu `content`. Kedua property
-ini mendukung seluruh satuan nilai length yang telah kita pelajari di bab sebelumnya, seperti `px`, `em`, `%`, dan `rem`.
+ini mendukung seluruh satuan nilai length, seperti `px`, `em`, `%`, dan `rem`.
 
 ## 1. pixel (px)
 
@@ -161,4 +161,123 @@ Saat dijalankan, perbedaan akan terlihat antara block dan inlin element. Dimana 
 
 
 
-# Min-Width and Min-Height
+# Min-Width and Max-Width
+
+Untuk pembuatan web secara responsive agar selalu terlihat bagus entah itu dibuka pada layar desktop maupun smartphone, maka css menyediakan property untuk mengatur minimal lebar dan maksimal lebar. Inilah fungsi dari `min-width` and `max-width`.
+
+Secara default, lebar suatu block element sama dengan parent element-nya. 
+
+Sebagai contoh, saya memiliki tag `<div>` yang tidak saya atur lebarnya. Maka yang terjadi, apapun yang saya isi didalam tag `<div>` tersebut, lebarnya akan sama seperti parent element-nya yakni tag `<body>` yang memiliki lebar web browser.
+
+berikut contoh penerapan-nya
+
+```html
+<div class="normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis hic quisquam est illo quo delectus natus inventore iure dolor obcaecati optio pariatur assumenda, itaque non voluptas! Tempore similique illum sapiente.</div>
+<div class="w">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, eaque sed doloribus cumque eum neque eius enim? Ratione delectus laborum nobis mollitia, aspernatur voluptas expedita obcaecati alias fuga ea ut.</div>
+```
+
+```css
+.normal {
+    border: 3px solid black;
+    background-color: aqua;
+    padding: 0.5em;
+}
+
+.w {
+    border: 3px solid black;
+    background-color: aqua;
+    padding: 0.5em;
+    width: 500px;
+}
+```
+
+Apabila melihat hasilnya, maka element yang di definisikan width nya akan diset selalu pas nilai-nya. Jika layar diperkecil,element yang memiliki width tetap akan mempertahankan nilai-nya, jika sudah terlalu kecil, maka element tersebut akan overflow atau tumpah-tumpah dan ada efek scrollbar.
+
+Menerapkan `min-width` dan `max-width` bisa dilakukan jika tidak ingin element tersebut overflow dari lebar layar.
+
+berikut contoh penerapan-nya
+
+```html
+<div class="miw">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quisquam doloribus ducimus tempore quis iure molestias, sequi voluptatem vel, ipsum nostrum facere autem amet minus maxime non. Voluptatem, aliquid laudantium!</div>
+<br>
+<div class="maw">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quisquam doloribus ducimus tempore quis iure molestias, sequi voluptatem vel, ipsum nostrum facere autem amet minus maxime non. Voluptatem, aliquid laudantium!</div>
+```
+
+```css
+.miw {
+    border: 3px solid red;
+    background-color: yellow;
+    padding: 0.5em;
+    min-width: 600px;
+}
+.maw {
+    border: 3px solid red;
+    background-color: yellow;
+    padding: 0.5em;
+    max-width: 600px;
+}
+```
+
+Jika dijalankan, element dengan class `.miw` saya set dengan `min-width:600px` yang berarti element tersebut akan mengecil sampai batas 600px, jike terlalu kecil maka dia akan menjadi overflow tumpah-tumpah.
+
+Element dengan class `.maw` saya set dengan `max-width:600px` yang berarti element tersebut diset lebarnya sebesar 600px, apabila diperkecil lagi, maka element tersebut secara responsive akan mengecil secara otomatis.
+
+
+# Min-Height and Max-Height
+
+Pelengkap dari property `min-width` dan `max-width`. Dengan property ini, mengatur tinggi element suatu hal yang mudah. Sama seperti property `min-width` dan `max-width`. Tinggi stuatu block element bergantung kepada tinggi konten.
+
+Sebagai contoh, apabila suatu element diset tingginya, maka tinggi dari element tersebut akan disesuaikan seperti set-nya, ketika ada konten yang melebihi dari height nya, nanti akan terjadi overflow tumpah-tumpah.
+
+berikan contoh penerapan-nya
+
+```html
+<div class="normal-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis hic quisquam est illo quo delectus natus inventore iure dolor obcaecati optio pariatur assumenda, itaque non voluptas! Tempore similique illum sapiente.</div>
+<div class="h">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, eaque sed doloribus cumque eum neque eius enim? Ratione delectus laborum nobis mollitia, aspernatur voluptas expedita obcaecati alias fuga ea ut.</div>
+```
+
+```css
+.normal-h {
+    width: 200px;
+    float: left;
+    margin: 10px;
+    padding: 0.4em;
+    border: 3px solid green;
+    background-color: pink;
+}
+
+.h {
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    padding: 0.4em;
+    border: 3px solid green;
+    background-color: pink;
+}
+```
+
+Jika dijalankan, terlihat bahwa element ke dua akan terjadi overflow konten karena saya set heightnya tidak sesuai dari isi konten-nya.Dengan property `min-height` dan `max-height` maka saya bisa batasi nilainya yang diizinkan sebuah element.
+
+```html
+<div class="minmax h1">Lorem ipsum dolor sit amet</div>
+<div class="minmax h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque natus hic sapiente alias? Excepturi maxime aliquid</div>
+<div class="minmax h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque natus hic sapiente alias? Excepturi maxime aliquid, debitis fugiat officia voluptatem repudiandae commodi non voluptate adipisci?</div>
+```
+
+```css
+.minmax {
+    width: 200px;
+    border: 3px solid blue;
+    float: left;
+    margin: 10px;
+    padding: 0.5em;
+    background-color: coral;
+}
+.h1, .h2, .h3 {
+    min-height: 50px;
+    max-height: 100px;
+}
+```
+
+Ketika dijalankan, property ini akan menyesuaikan nilai yang telah didefinisikan. Khusus jika tinggi konten antara 50 sampai 100 pixel, tinggi box akan menyesuaikan diri.
