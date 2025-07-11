@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 500px;
+    height: 250px;
+    border: 3px solid black;
+    float: left;
+    margin: 10px;
+    background-image: url('../img/kiwi100x100.png');
+    background-repeat: no-repeat;
+}
+
+.satu {background-position: 200px 60px;}
+.dua {background-position: 70% 20%;}
+.tiga {background-position: center center;}
+
+/* 3 Nilai */
+.empat {background-position: right 60px bottom;}
+/* 4 Nilai */
+.lima {background-position: right 20px top 50px;}
+
+
+.enam {
+    background-image: url('../img/jeruk100x100.png'),
+                        url('../img/strawberry100x100.png'),
+                        url('../img/bluebarry100x100.png');
+    background-position: right bottom, 50% 0%, left bottom;
+}
