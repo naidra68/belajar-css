@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    float: left;
+    margin: 0.5em;
+    background-image: url('../img/wallpaper.png');
+    background-repeat: no-repeat;
+    background-color: green;
+    background-size: cover;
+}
+p {
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.satu {background-blend-mode: normal;}
+.dua {background-blend-mode: multiply;}
+.tiga {background-blend-mode: overlay;}
+.empat {background-blend-mode: screen;}
+.lima {background-blend-mode: darken;}
+.enam {background-blend-mode: lighten;}
+.tujuh {background-blend-mode: color-dodge;}
+.delapan {background-blend-mode: color-burn;}
+.sembilan {background-blend-mode: hard-light;}
+.sepuluh {background-blend-mode: soft-light;}
+.sebelas {background-blend-mode: difference;}
+.duabelas {background-blend-mode: exclusion;}
+.tigabelas {background-blend-mode: hue;}
+.empatbelas {background-blend-mode: saturation;}
+.limabelas {background-blend-mode: color;}
+.enambelas {background-blend-mode: luminosity;}
