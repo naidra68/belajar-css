@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 6px dashed red;
+    float: left;
+    margin: 10px;
+    padding: 0.5em;
+    background-color: yellow;
+    font-size: 12px;
+    text-align: center;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    border: 6px dashed lime;
+    float: left;
+    margin: 10px;
+    padding: 0.5em;
+    background-image: url('../img/bluebarry100x100.png');
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.satu {background-clip: border-box;}
+.dua {background-clip: padding-box;}
+.tiga {background-clip: content-box;}
+
+.empat {background-origin: border-box;}
+.lima {background-origin: padding-box;}
+.enam {background-origin: content-box;}
