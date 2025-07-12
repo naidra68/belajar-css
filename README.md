@@ -78,5 +78,13 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [07-background_origin_clip](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/07-background_origin_clip)
     - [08-background_blend_mode](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/08-background_blend_mode)
     - [09-background](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/09-background)
-
+6. [06-positioning](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning)
+    - [01-normal_document_flow](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/01-normal_document_flow)
+    - [02-position](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/02-position)
+    - [03-display](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/03-display)
+    - [04-z_index](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/04-z_index)
+    - [05-float](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/05-float)
+    - [06-float_positioning](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/06-float_positioning)
+    - [07-clear](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/07-clear)
+    
 Terima kasih sudah berkunjung :heart:
