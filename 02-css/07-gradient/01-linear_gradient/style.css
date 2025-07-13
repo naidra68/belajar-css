@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linear-gradient {
+    width: 80%;
+    height: 160px;
+    text-align: center;
+    margin: 1em auto;
+    background-color: dimgray;
+    padding: 1em;
+}
+.box {
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    float: left;
+}
+.box > span {
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+}
+.box1 {background-image: linear-gradient(red, white);}
+.box2 {background-image: linear-gradient(green, white);}
+.box3 {background-image: linear-gradient(blue, white);}
+
+.box4 {background-image: linear-gradient(red, green, blue);}
+.box5 {background-image: linear-gradient(cyan, magenta, yellow,black);}
+.box6 {background-image: linear-gradient(red, orange, yellow,lime ,limegreen, cyan, blue, purple, magenta);}
+
+
+.box7 {
+    background-image: linear-gradient(red 25%, blue 50%, red 100%);
+}
+.box8 {
+    background-image: linear-gradient(cyan 25%, yellow 50%, magenta 75%, black 100%);
+}
+.box9 {
+    background-image: linear-gradient(red 10%,orange 20%, yellow 30%,
+                                    lime 40%, green 50%, blue 60%,
+                                    cyan 70%, pink 80%, magenta 90%,
+                                    purple 100%);
+}
+
+.linear-gradient1 {
+    width: 80%;
+    height: 480px;
+    text-align: center;
+    margin: 1em auto;
+    background-color: dimgray;
+    padding: 1em;
+}
+
+.box10 {background-image: linear-gradient(to left, white, red);}
+.box11 {background-image: linear-gradient(to right, red, green, blue);}
+.box12 {background-image: linear-gradient(to top, red, white);}
+.box13 {background-image: linear-gradient(to bottom, blue, red);}
+.box14 {background-image: linear-gradient(to top left, green, white);}
+.box15 {background-image: linear-gradient(to top right, blue, white);}
+.box16 {background-image: linear-gradient(to bottom left, green, white, blue);}
+.box17 {background-image: linear-gradient(to bottom right, red, white, yellow);}
+
+.box18 {background-image: linear-gradient(45deg, red, white, blue);}
+.box19 {background-image: linear-gradient(90deg, red, white, blue);}
+.box20 {background-image: linear-gradient(135deg, red, white, blue);}
+.box21 {background-image: linear-gradient(-45deg, red, white, blue);}
+.box22 {background-image: linear-gradient(-90deg, red, white, blue);}
+.box23 {background-image: linear-gradient(-135deg, red, white, blue);}
+
+.box24 {background-image: repeating-linear-gradient(red, white 25%);}
+.box25 {background-image: repeating-linear-gradient(to bottom right, red, white, red 4%);}
+.box26 {background-image: repeating-linear-gradient(to left, red, white 20%);}
+.box27 {background-image: repeating-linear-gradient(to top right, red, white, red 1%);}
+.box28 {background-image: repeating-linear-gradient(to right, red,orange,yellow,lime,limegreen,cyan,blue,pink,magenta,purple 10%);}
