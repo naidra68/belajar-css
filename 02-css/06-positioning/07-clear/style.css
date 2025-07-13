@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.float-left, .float-right {
+    margin: 1em;
+}
+.float-left > img {
+    width: 200px;
+    float: left;
+    margin: 0 1em 1em 0;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.float-left > p:last-child{
+    clear: left;
+}
+.float-right > img {
+    width: 200px;
+    float: right;
+    margin: 0 0 1em 1em;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.float-right > p:last-child{
+    clear: right;
+}
+
+.both > img {
+    margin: 0 0 1em 1em;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.both > img:nth-child(even) {
+    float: left;
+    width: 100px;
+}
+.both > img:nth-child(odd) {
+    float: right;
+    width: 200px;
+}
+
+p {
+    clear: both;
+}
