@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.float-left {
+    margin: 1em;
+}
+.float-left > img {
+    width: 200px;
+    float: left;
+    margin: 0 1em 1em 0;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.float-right {
+    margin: 1em;
+}
+.float-right > img {
+    width: 200px;
+    padding: 0.5em;
+    border: 1px solid black;
+    margin: 0 0 1em 1em;
+    float: right;
+}
+ul {
+    float: left;
+    width: 100%;
+    padding: 1em 0;
+    background-color: slateblue;
+}
+ul li {
+    list-style: none;
+    float: left;
+}
+ul li a {
+    text-decoration: none;
+    padding: 1em;
+    background-color: slateblue;
+    color: white;
+}
+ul li a:hover,
+ul li a.active {
+    background-color: red;
+}
