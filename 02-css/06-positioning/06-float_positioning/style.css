@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    background-color: dimgray;
+    margin: 1em auto;
+}
+.box {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    float: left;
+    font-size: 1.5em;
+}
+.box1 {
+    width: 25%;
+    background-color: red;
+}
+.box2 {
+    width: 50%;
+    background-color: green;
+}
+.box3 {
+    width: 25%;
+    background-color: blue;
+}
+.box4 {
+    width: 25%;
+    background-color: cyan;
+}
+.box5 {
+    width: 25%;
+    background-color: yellow;
+}
+.box6 {
+    width: 50%;
+    background-color: magenta;
+}
+.box7 {
+    width: 25%;
+    background-color: purple;
+    float: right;
+}
+.box8 {
+    width: 50%;
+    background-color: orangered;
+    float: right;
+}
+.box9 {
+    width: 25%;
+    background-color: saddlebrown;
+}
