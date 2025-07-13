@@ -86,5 +86,7 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [05-float](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/05-float)
     - [06-float_positioning](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/06-float_positioning)
     - [07-clear](https://github.com/naidra68/belajar-css/tree/main/02-css/06-positioning/07-clear)
-    
+7. [07-gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient)
+    - [01-linear_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/01-linear_gradient)
+    - [02-radial_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/02-radial_gradient)
 Terima kasih sudah berkunjung :heart:
