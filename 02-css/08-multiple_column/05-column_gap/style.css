@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.column-gap {
+    column-count: 3;
+    column-gap: 100px;
+}
