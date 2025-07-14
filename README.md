@@ -90,5 +90,19 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [01-linear_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/01-linear_gradient)
     - [02-radial_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/02-radial_gradient)
 8. [08-multiple_column](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column)
+    - [01-column_count](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/01-column_count)
+    - [02-column_width](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/02-column_width)
+    - [03-column_fill](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/03-column_fill)
+    - [04-column_gap](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/04-column_gap)
+    - [05-column_rule](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/05-column_rule)
+    - [06-column_span](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column/06-column_span)
+9. [09-border_image](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image)
+    - [01-border_image_source](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/01-border_image_source)
+    - [02-border_image_slice](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/02-border_image_slice)
+    - [03-border_image_width](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/03-border_image_width)
+    - [04-border_image_repeat](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/04-border_image_repeat)
+    - [05-border_image_outset](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/05-border_image_outset)
+    - [06-border_image](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/06-border_image)
+
 
 Terima kasih sudah berkunjung :heart:
