@@ -89,4 +89,6 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
 7. [07-gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient)
     - [01-linear_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/01-linear_gradient)
     - [02-radial_gradient](https://github.com/naidra68/belajar-css/tree/main/02-css/07-gradient/02-radial_gradient)
+8. [08-multiple_column](https://github.com/naidra68/belajar-css/tree/main/02-css/08-multiple_column)
+
 Terima kasih sudah berkunjung :heart:
