@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.radial-gradient {
+    width: 80%;
+    height: 380px;
+    background: dimgray;
+    margin: 1em auto;
+}
+.box {
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em;
+    float: left;
+}
+.box1 {
+    background-image: radial-gradient(white, red);
+}
+.box2 {
+    background-image: radial-gradient(circle, white, green);
+}
+.box3 {
+    background-image: radial-gradient(ellipse, white, green);
+}
+
+.radial-gradient1 {
+    width: 80%;
+    height: 600px;
+    background: dimgray;
+    margin: 1em auto;
+}
+.box4 {background-image: radial-gradient(circle at 100% 50%, red, yellow);}
+.box5 {background-image: radial-gradient(ellipse at 100% 50%, red, yellow);}
+.box6 {background-image: radial-gradient(circle at 100px 150px, red, yellow);}
+.box7 {background-image: radial-gradient(ellipse at bottom right, blue, cyan);}
+.box8 {background-image: radial-gradient(circle at top left, blue, cyan);}
+.box9 {background-image: radial-gradient(ellipse at bottom left, blue, cyan);}
+
+.box10 {background-image: radial-gradient(circle 2rem, red, green);}
+.box11 {background-image: radial-gradient(circle 4em, red, green);}
+.box12 {background-image: radial-gradient(circle 100px, red, green);}
+
+.box13 {background-image: radial-gradient(circle 100px at 90% 90%, black, cyan, black);}
+.box14 {background-image: radial-gradient(circle 100px at 10% 90%, black, cyan, black);}
+.box15 {background-image: radial-gradient(circle 100px at 90% 10%, black, cyan, black);}
+.box16 {background-image: radial-gradient(circle 100px at 10% 10%, black, cyan, black);}
+
+.box17 {background-image: repeating-radial-gradient(circle, white,red 20%);}
+.box18 {background-image: repeating-radial-gradient(circle at right top, white,red 10%, white 15%);}
+.box19 {background-image: repeating-radial-gradient(circle at left, red,red 10px,white 15px);}
+.box20 {background-image: repeating-radial-gradient(circle, red,white 1px, red 2px);}
