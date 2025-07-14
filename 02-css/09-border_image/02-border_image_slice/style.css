@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: dimgray;
+    margin: 1em;
+    float: left;
+    border: 33px solid transparent;
+}
+.box1 {
+    border-image-source: url('../img/border1.png');
+    border-image-slice: 33 33 33 33;
+}
+.box2 {
+    border-image-source: url('../img/border1.png');
+    border-image-slice: 16 33 16 33;
+}
+.box3 {
+    border-image-source: url('../img/border2.png');
+    border-image-slice: 15%;
+}
+.box4 {
+    border-image-source: url('../img/border1.png');
+    border-image-slice: 33 fill;
+}
