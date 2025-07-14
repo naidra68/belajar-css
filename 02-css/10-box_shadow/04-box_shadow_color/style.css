@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin: 1.5em;
+}
+.box1 {box-shadow: 10px 10px 10px 10px red;}
+.box2 {box-shadow: 10px 10px 10px 10px #0000FF;}
+.box3 {box-shadow: 10px 10px 10px 10px rgba(255,88,75,0.8);}
+.box4 {box-shadow: 10px 10px 10px 10px hsl(50,100%,50%);}
