@@ -103,6 +103,12 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [04-border_image_repeat](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/04-border_image_repeat)
     - [05-border_image_outset](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/05-border_image_outset)
     - [06-border_image](https://github.com/naidra68/belajar-css/tree/main/02-css/09-border_image/06-border_image)
-
+10. [10-box_shadow](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow)
+    - [01-box_shadow_offset](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/01-box_shadow_offset)
+    - [02-box_shadow_blur_radius](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/02-box_shadow_blur_radius)
+    - [03-box_shadow_spread](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/03-box_shadow_spread)
+    - [04-box_shadow_color](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/04-box_shadow_color)
+    - [05-box_shadow_inset](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/05-box_shadow_inset)
+    - [06-multiple_box_shadow](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/06-multiple_box_shadow)
 
 Terima kasih sudah berkunjung :heart:
