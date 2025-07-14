@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.column-rule {
+    column-count: 3;
+    column-rule: 3px double black;
+}
