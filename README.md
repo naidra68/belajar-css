@@ -110,5 +110,10 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [04-box_shadow_color](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/04-box_shadow_color)
     - [05-box_shadow_inset](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/05-box_shadow_inset)
     - [06-multiple_box_shadow](https://github.com/naidra68/belajar-css/tree/main/02-css/10-box_shadow/06-multiple_box_shadow)
+11. [11-transform](https://github.com/naidra68/belajar-css/tree/main/02-css/11-transform)
+    - [01-rotate](https://github.com/naidra68/belajar-css/tree/main/02-css/11-transform/01-rotate)
+    - [02-translate](https://github.com/naidra68/belajar-css/tree/main/02-css/11-transform/02-translate)
+    - [03-scale](https://github.com/naidra68/belajar-css/tree/main/02-css/11-transform/03-scale)
+    - [04-skew](https://github.com/naidra68/belajar-css/tree/main/02-css/11-transform/04-skew)
 
 Terima kasih sudah berkunjung :heart:
