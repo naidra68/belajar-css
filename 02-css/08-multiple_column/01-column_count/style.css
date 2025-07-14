@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.column-count {
+    column-count: 3;
+    margin: 1em;
+}
