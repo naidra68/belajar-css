@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.column-fill {
+    height: 400px;
+    column-width: 200px;
+    column-fill: auto;
+    margin: 1em;
+}
