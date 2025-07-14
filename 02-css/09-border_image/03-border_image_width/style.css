@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: dimgray;
+    margin: 1em;
+    float: left;
+    border: 33px solid transparent;
+}
+.box1 {
+    border-image-source: url('../img/border1.png');
+    border-image-slice: 33;
+    border-image-width: 70px;
+}
