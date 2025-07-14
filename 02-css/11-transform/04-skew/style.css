@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 80px;
+    background-color: green;
+    float: left;
+    margin: 1.5em;
+}
+.box1 {transform: skew(30deg, 15deg);}
+.box2 {transform: skewX(15deg);}
+.box3 {transform: skewY(15deg);}
+.box4 {transform: skewX(-60deg) skewY(15deg);}
