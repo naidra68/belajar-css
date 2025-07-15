@@ -134,5 +134,13 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
         - [08-animation_play_state](https://github.com/naidra68/belajar-css/tree/main/02-css/12-transition_animation/02-animation/08-animation_play_state)
         - [09-animation](https://github.com/naidra68/belajar-css/tree/main/02-css/12-transition_animation/02-animation/09-animation)
         - [10-multiple_animation](https://github.com/naidra68/belajar-css/tree/main/02-css/12-transition_animation/02-animation/10-multiple_animation)
+13. [13-media_query](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query)
+    - [01-type_layout](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/01-type_layout)
+    - [02-media_query_introduce](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/02-media_query_introduce)
+    - [03-width_height](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/03-width_height)
+    - [04-resolution](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/04-resolution)
+    - [05-device](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/05-device)
+    - [06-orientation](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/06-orientation)
+    - [07-responsive_layout](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/07-responsive_layout)
 
 Terima kasih sudah berkunjung :heart:
