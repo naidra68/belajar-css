@@ -8,6 +8,14 @@ Melihat sejarah sebelum adanya Media Query. Ketika developers atau programmer we
 
 Hal ini cukup merepotkan, karena kurang efisien dan butuh biaya besar jika terdapat perubahan fitur pada website tersebut.
 
+Sebelum memulai pembahasan mengenai media query, alangkah baik-nya developer memakai ekstensi **Responsive Viewer** yang dapat diinstal di web browser seperti Google Chrome atau Brave.
+
+Link Extension : [Klik Disini](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+
+Link Web Resmi : [Klik Disini](https://responsiveviewer.org/)
+
+Karena saya memakai Brave Browser maka saya dapat menginstall-nya seperti yang ada di Google Ghrome. Jika developer memakai firefox, silahkan cari alternatif lain.
+
 # Link Tree
 
 1. [01-type_layout](https://github.com/naidra68/belajar-css/tree/main/02-css/13-media_query/01-type_layout)
