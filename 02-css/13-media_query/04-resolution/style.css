@@ -1,0 +1,8 @@
+div {
+    background-image: url('logo.jpg');
+}
+@media (min-resolution: 2dppx) {
+    div {
+        background-image: url('logo_HD.jpg');
+    }
+}
