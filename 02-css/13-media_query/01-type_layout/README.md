@@ -9,6 +9,7 @@ Fixed layout adalah sebutan tampilan web yang selalu tetap. Fixed layout relatif
 Fixed layout umumnya dibuat untuk monitor dekstop yang cukup lebar dengan resolusi 1024 pixel ke atas. Namun jika diakses dari perangkat dengan layar berukuran kecil seperti smartphone, maka developers terpaksa menggunakan fitur zoom dengan menggeser-geser scrollbar.
 
 ![Fixed Layout Image](img/fixed_layout.jpg)
+
 *sumber : [Smashingmagazine](https://www.smashingmagazine.com/2009/06/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)*
 
 ## 2. Fluid Layout
@@ -18,6 +19,7 @@ Fluid layout adalah sebuatan untuk tampilan website yang dibuat dengan satuan re
 Bagi developer, membuat website dengan fluid layout ini cukup susah karena developer tidak memiliki kontrol penuh terhadap penempatan layout element-nya. Seperti contoh komponen sidebar jika diperkecil secara terus menerus maka dia akan tetap tidak mengecil dan kurang pas karena terlalu sempit.
 
 ![Fluid Layout Image](img/fluid_layout.jpg)
+
 *sumber : [Smashingmagazine](https://www.smashingmagazine.com/2009/06/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)*
 
 ## 3. Responsive Layout
@@ -29,4 +31,5 @@ Kelamahan dari responsive layout adalah lebih susah untuk dirancang karena harus
 Meskipun untuk merancang responsive layout dijaman sekarang terbilang sangat mudah karena bantuan tools seperti css framework ataupun menggunakan AI, namun saya sebagai developer harus paham fundamental mengenai perancangan layout ini tanpa bantuan tools terlebih dahulu, agar terlatih logic dan seni perancangan.
 
 ![Responsive Layout Image](img/responsive_layout.jpg)
+
 *sumber : [Kentico](https://devnet.kentico.com/articles/how-to-create-a-responsive-website-at-speed-in-mvc)*
