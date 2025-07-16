@@ -1,5 +1,13 @@
 # Flexbox
 
+**Flexbox** adalah sebuah terobosan baru yang dikembangkan tim CSS untuk mengatur layout website. Sebagai developer zaman sekarang, mungkin membuat layout website sudah pasti menggunakan flexbox karena sangat mudah untuk mengatur layout-nya.
+
+Namun balik ke masa lalu sebelum ada-nya **Flexbox** ini, untuk membuat dan mengontrol layout website. Para developer dengan ide kreatif-nya menggunakan property float. Float pada dasarnya adalah property CSS untuk mengatur posisi gambar didalam teks.
+
+Dengan keterbatasan itu, developer akhirnya menggunakan float untuk design layout website mereka. Sekarang penjelasan mengenai **Flexbox**.
+
+**Flexbox** berisi berbagai property CSS untuk mengatur tampilan yang tersusun secara 1 dimensi (baris saja, atau kolom saja). Misalnya mengatur posisi element di dalam baris, mengatur posisi link pada navbar, atau mengatur urutan kolom.
+
 # Link Tree
 
 1. [01-container](https://github.com/naidra68/belajar-css/tree/main/02-css/14-flexbox/01-container)
