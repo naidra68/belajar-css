@@ -213,3 +213,15 @@ berikut contoh penerapan-nya
     }
 }
 ```
+
+Sangat panjang untuk membuat layout sederhana seperti ini, inilah awal dari web developers. Memang merancang web from scratch atau merancang web dari titik nol memerlukan effort yang cukup banyak.
+
+Ini harus dilakukan oleh saya sebagai web developers pemula yang baru belajar CSS, karena tanpa memahami dan membuat website dari nol tanpa bantuan tools maupun AI, maka cara berpikir saya akan melambat ketika mencoba membuat tampilan web dengan style berbeda-beda.
+
+Ngomong-ngomong, pada layout contoh diatas saya membuatnya menggunakan metode **Desktop First**, dimana tampilan diutamakan untuk perangkat komputer ataupun laptop.
+
+Saat ini, mayoritas website yang tersebar di internet sudah jarang menggunakan metode **Desktop First**. Saat ini, metode **Mobile First** lah yang sangat banyak digunakan karena developer mengutamakan perangkat mobile dan nanti-nya tampilan akan menyesuaikan untuk perangkat komputer atau laptop.
+
+Untuk tools pembuatan responsive web, saat ini paling banyak digunakan adalah CSS Framework **Bootstrap**. Saya belum mempelajarinya. Tapi menurut orang-orang, **Bootstrap** mudah digunakan dan ramah pemula.
+
+Selain **Bootstrap**, ada yang nama-nya **TailwindCSS**. Banyak digunakan juga karena mayoritas developer sudah bosan menggunakan **Bootstrap** dan memiliki untuk menggunakan **TailwindCSS** sebagai pengganti.
