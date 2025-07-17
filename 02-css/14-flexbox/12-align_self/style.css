@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 150px;
+    border: 2px solid #FF734F;
+    background-color: #09A8C8;
+    margin: 1em;
+    display: flex;
+    align-items: start;
+}
+.row {flex-direction: row;}
+.column {flex-direction: column;}
+.box {
+    margin: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+    background-color: #F9C75C;
+}
+.stretch {align-self: stretch;}
+.start {align-self: flex-start;}
+.center {align-self: center;}
+.end {align-self: flex-end;}
+.baseline {align-self: baseline;}
+
+.fs-18 {font-size: 18px;}
+.fs-22 {font-size: 22px;}
+.fs-26 {font-size: 26px;}
