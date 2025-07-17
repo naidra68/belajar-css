@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 150px;
+    background-color: aqua;
+    border: 2px solid salmon;
+    margin: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.box {
+    background-color: yellow;
+}
+.box:nth-child(even) {
+    background-color: yellowgreen;
+}
+.row-gap {row-gap: 20px;}
+.column-gap {column-gap: 1.5em;}
+.gap1 {gap: 1.5rem;}
+.gap2 {gap: 1rem 0.5rem;}
