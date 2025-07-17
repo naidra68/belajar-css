@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 150px;
+    border: 2px solid #FF734F;
+    background-color: #09A8C8;
+    margin: 1em;
+    display: flex;
+}
+.box {
+    width: 300px;
+    margin: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+    background-color: #F9C75C;
+}
+
+.f-1 {flex: none;}
+.f-2 {flex: 0 1 auto;}
+.f-3 {flex: 2 2;}
+.f-4 {flex: 0 100px;}
+.f-5 {flex: 1 4 200px;}
