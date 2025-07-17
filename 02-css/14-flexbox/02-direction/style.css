@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 150px;
+    border: 2px solid #FF734F;
+    background-color: #09A8C8;
+    margin: 1em;
+    display: flex;
+}
+.box {
+    margin: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+    background-color: #F9C75C;
+}
+.row {
+    flex-direction: row;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.column {
+    flex-direction: column;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
