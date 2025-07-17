@@ -1,6 +1,8 @@
 # Grid
 
+Selain Flexbox, Grid merupakan salah satu property CSS yang ditujukan untuk perancangan layout. Sedikit berbeda dengan flexbox. Grid bisa mengatur posisi element pada 2 dimensi sekaligus yakni pada main axis (sumbu x | horizontal) dan cross axis (sumbu y | vertical).
 
+Dengan kelebihan itu, menggunakan grid untuk perancangan website modern yang sekarang kompleks merupakan suatu kewajiban yang harus dipahami. Namun dalam suatu kasus, biassanya grid akan sering dikombinasikan dengan Flexbox.
 
 # Link Tree
 
