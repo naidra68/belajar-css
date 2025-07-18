@@ -16,6 +16,7 @@ Sebagai contoh, saya akan membuat responsive font-size agar ukuran berbeda setia
     <p class="clamp2">Font Size ini akan tampil secara responsive dengan fungsi clamp()</p>
     <p class="clamp3">Font Size ini akan tampil secara responsive dengan fungsi clamp()</p>
 </div>
+<div class="lebar"></div>
 ```
 
 ```css
@@ -28,4 +29,10 @@ Sebagai contoh, saya akan membuat responsive font-size agar ukuran berbeda setia
 .clamp1 {font-size: clamp(1rem, 2.5vw, 2rem);}
 .clamp2 {font-size: clamp(1.5rem, 2.5vw, 4rem);}
 .clamp3 {font-size: clamp(1rem, 10vw, 2rem);}
+
+.lebar {
+    width: clamp(300px, 50%, 800px);
+    height: 200px;
+    background-color: lime;
+}
 ```
