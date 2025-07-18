@@ -8,3 +8,4 @@ Sekarang saya akan mencoba beberapa fungsi pada CSS ini, saya akan mencoba fungs
 
 # Link Tree
 
+1. [01-calc](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/01-calc)
