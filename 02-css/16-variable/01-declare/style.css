@@ -1,0 +1,23 @@
+:root {
+    --bg-color: limegreen;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body > * {
+    margin: 2em 1em;
+}
+
+h1 {color: var(--bg-color);}
+p {color: var(--bg-color);}
+pre {color: var(--bg-color);}
+section {color: var(--bg-color);}
+
+@property --main-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: brown;
+}
+
+aside {color: var(--main-color);}
