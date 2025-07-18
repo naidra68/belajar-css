@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid salmon;
+    margin: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 50px);
+    gap: 0.2rem;
+}
+.box {
+    background-color: yellow;
+}
+.box:nth-child(even) {
+    background-color: yellowgreen;
+}
+.header {grid-area: header;}
+.main {grid-area: main;}
+.sidebar {grid-area: sidebar;}
+.footer {grid-area: footer;}
+
+.grid-template-areas {
+    grid-template-areas:
+    " header header header "
+    " main main sidebar "
+    " main main sidebar "
+    " footer footer footer ";
+}
+.grid-template-areas1 {
+    grid-template-areas:
+    " ... header ... "
+    " main main sidebar "
+    " main main ... "
+    " ... footer footer ";
+}
