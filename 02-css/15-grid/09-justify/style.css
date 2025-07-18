@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid salmon;
+    margin: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box {
+    background-color: yellow;
+}
+.box:nth-child(even) {
+    background-color: yellowgreen;
+}
+
+.stretch {justify-items: stretch;}
+.start {justify-items: start;}
+.center {justify-items: center;}
+.end {justify-items: end;}
