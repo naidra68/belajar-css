@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    border: 2px solid black;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.clamp1 {font-size: clamp(1rem, 2.5vw, 2rem);}
+.clamp2 {font-size: clamp(1.5rem, 2.5vw, 4rem);}
+.clamp3 {font-size: clamp(1rem, 10vw, 2rem);}
