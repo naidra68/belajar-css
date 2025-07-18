@@ -11,4 +11,5 @@ Penjelasan mengenai CSS Variable lumayan banyak dan saya akan mencoba fitur ini 
 # Link Tree
 
 1. [01-declare](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/01-declare)
+2. [02-dashed_vs_property](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/02-dashed_vs_property)
 

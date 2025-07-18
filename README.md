@@ -171,5 +171,8 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [11-place](https://github.com/naidra68/belajar-css/tree/main/02-css/15-grid/11-place)
     - [12-self](https://github.com/naidra68/belajar-css/tree/main/02-css/15-grid/12-self)
     - [13-layout](https://github.com/naidra68/belajar-css/tree/main/02-css/15-grid/13-layout)
+16. [16-variable](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable)
+    - [01-declare](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/01-declare)
+    - [02-dashed_vs_property](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/02-dashed_vs_property)
 
 Terima kasih sudah berkunjung :heart:
