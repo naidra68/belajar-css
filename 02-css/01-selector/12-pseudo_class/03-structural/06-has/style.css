@@ -1,0 +1,14 @@
+/* div:has(p) {
+    color: red;
+} */
+
+/* div p {
+    color: red;
+} */
+
+div {
+    color: red;
+}
+div:has(span) {
+    color: blue;
+}
