@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+    border: 2px solid;
+    background-color: yellow;
+    display: flex;
+    padding: 1.5rem;
+}
+.resize {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    border: 2px solid;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    overflow: auto;
+}
+.horizontal {resize: horizontal;}
+.vertical {resize: vertical;}
+.both {resize: both;}
