@@ -24,13 +24,13 @@ body {
 }
 ```
 
-Jika kode tersebut dijalankan, akan membuat semua tulisan berwarna hijau. Mengapa ini terjadi? 
+Jika kode tersebut dijalankan, akan membuat semua tulisan berwarna merah. Mengapa hal ini terjadi? Jika di logika, seharusnya hanya warna pada tag `<body>` saja yang berubah warna-nya, namun semua element yang didalam tag `<body>` berubah semua warna-nya.
 
-Saya bedah struktur html-nya. Kalau dilihat dari logika, seharunya element yang berada didalam `<div>` tidak akan terkena style. Namun tetap kena. Itulah konsep inheritance atau penurunan.
+Ini bisa terjadi karena ada konsep inheritance (pewarisan), ingat bahwa struktur HTML diatas adalah sebuah struktur DOM. Dimana struktur DOM ini memiliki struktur data seperti pohon dan akar. Jadi, semua element yang berada di dalam tag `<body>` akan terkena style.
 
-Meskipun saya sudah mengelompokkan menjadi parent dan child, namun itu tidak bekerja karena element `<body>` akan menimpa semua-nya. Untuk mengetasi hal ini, saya bisa menimpa-nya dengan menambahkan element spesific setelah `<body>`.
+Bagaimana jika saya timpa warna-nya dengan mengubah warna pada element div? Jawaban-nya bisa, nantinya element div akan berubah warna.
 
-contoh penerapan-nya
+berikut contoh penerapan-nya
 
 ```css
 body {
@@ -44,7 +44,7 @@ div {
 Apabila dijalankan, semua element yang ada didalam `<div>` akan berubah warna menjadi biru, ini akan menimpa warna dari element `<body>`. Konsep cascading dan inheritance terpakai disini.
 
 
-Konsep ini cukup membuat bingung. Apalagi jika mempunyai kasus seperti contoh code berikut
+Contoh lain mengenai konsep cascading dan inheritance ini. Berikut contoh penerapan-nya.
 
 ```html
 <h1>Belajar CSS</h1>
@@ -61,8 +61,8 @@ div {color: red;}
 body {color: green;}
 ```
 
-Jika dijalankan tampak normal, namun konsep ini tidak mencerminkan cascading. Seharusnya kan cascading memiliki aturan style paling terakhir menang. Seharusnya `<body>` akan menimpa semua-nya karena konsep cascading tersebut.
+Jika dijalankan, terlihat bahwa tag `<strong>` berubah warna menjadi biru, mengapa hal ini bisa terjadi? bukankah style terakhir yang harusnya menang? Jika mengacu pada konsep cascading (last rules apply).
 
-Namun. konsep cascading hanya berlaku jika menimpa element yang sama. Jika saya menimpa dengan element yang berbeda maka konsep inheritance yang akan digunakan.
+Jawabannya adalah efek cascading yang telah digunakan sebelum-nya hanya berlaku jika selector element-nya sama. Seperti contoh, saya membuat selector body 2x, maka body yang terakhir lah yang menang.
 
-Cukup membingungkan buat saya yang baru belajar, akan tetapi dengan begini saya mengerti kenapa kode css saya terkadang tidak berubah padahal sudah diganti. Ternyata konsep seperti ini cukup krusial.
+Konsep ini penting untuk dipahami agar tidak kebingung jika memiliki masalah mengenai style css. Terkadang saat saya memberikan style pada element, biasanya tidak berefek atau tidak bisa di style. Ini bisa terjadi karena ada cascading yang timpa menimpa atau inheritance yang memiliki pewarisan pada element sebelumnya.
