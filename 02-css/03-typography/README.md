@@ -17,7 +17,7 @@ keterangan/deskripsi. Menu navigasi sebuah website juga hampir semuanya terdiri 
 8. [08-font_variant](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/08-font_variant)
 9. [09-text_align](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/09-text_align)
 10. [10-line_height](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/10-line_height)
-11. [11-letter_spacing_word_spacing](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/11-letter_spacing_word_spacing)
+11. [11-letter_word_spacing](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/11-letter_word_spacing)
 12. [12-text_indent](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/12-text_indent)
 13. [13-font](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/13-font)
 14. [14-text_shadow](https://github.com/naidra68/belajar-css/tree/main/02-css/03-typography/14-text_shadow)
