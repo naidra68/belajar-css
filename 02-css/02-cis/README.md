@@ -10,7 +10,7 @@ Untuk mengatasi semua ini maka terciptalah teknik yang disebut sebagai **CSS Res
 
 ## Link Tree
 
-- [Cascading](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/01-cascading.md)
-- [Inheritance](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/02-inheritance.md)
-- [Specificity](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/03-specificity.md)
+- [Cascading](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cis/01-cascading.md)
+- [Inheritance](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cis/02-inheritance.md)
+- [Specificity](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cis/03-specificity.md)
 - [!important](https://github.com/naidra68/belajar-css/tree/main/02-css/02-cascade_inheritance_specificity/04-important.md)
