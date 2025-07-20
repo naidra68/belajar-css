@@ -70,7 +70,9 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [06-reset](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/06-reset)
     - [07-box_sizing](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/07-box_sizing)
     - [08-outline](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/08-outline)
-    - [09-vw_vh](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-vw_vh)
+    - [09-viewport](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-viewport)
+        - [01-vw_vh](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-viewport/01-vw_vh)
+        - [02-dvw_dvh](https://github.com/naidra68/belajar-css/tree/main/02-css/04-box_model/09-viewport/02-dvw_dvh)
 5. [05-background](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background)
     - [01-background_color](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/01-background_color)
     - [02-background_image](https://github.com/naidra68/belajar-css/tree/main/02-css/05-background/02-background_image)
@@ -177,5 +179,11 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
 16. [16-variable](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable)
     - [01-declare](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/01-declare)
     - [02-dashed_vs_property](https://github.com/naidra68/belajar-css/tree/main/02-css/16-variable/02-dashed_vs_property)
+17. [17-function](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function)
+    - [01-calc](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/01-calc)
+    - [02-filter](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/02-filter)
+    - [03-clamp](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/03-clamp)
+    - [04-counter](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/04-counter)
+18. [18-property](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property)
 
 Terima kasih sudah berkunjung :heart:
