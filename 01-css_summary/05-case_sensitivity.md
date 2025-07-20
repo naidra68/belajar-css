@@ -2,14 +2,7 @@
 
 Case Sensitivity merupakan bahasan apakah sebuah bahasa membedakan penulisan huruf kecil atau huruf besar. CSS bersifat case-insensitive, jadi penulisan huruf kecil atau huruf besar tidak akan berpengaruh.
 
-```css
-p {
-    font-size: 28px;
-}
-p {
-    FoNt-sIzE: 28Px;
-}
-```
+berikut contoh penerapan-nya
 
 ```html
 <html>
@@ -24,4 +17,9 @@ p {
     <h1 class="Belajar">Belajar CSS Dasar</h1>
 </body>
 </html>
+```
+
+```css
+p { font-size: 28px; }
+p { FoNt-sIzE: 28Px; }
 ```
