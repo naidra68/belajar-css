@@ -1,0 +1,5 @@
+.normal, .normal th, .normal td {
+    border: 1px solid;
+    padding: 1rem;
+    border-collapse: collapse;
+}
