@@ -6,4 +6,7 @@ Berikut ini saya akan mencoba property yang menarik untuk digunakan atau suatu s
 
 # Link Tree
 
-1. [01-cursor](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/01-calc)
+1. [01-cursor](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/01-cursor)
+2. [02-resize](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/02-resize)
+3. [03-list_style](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/03-list_style)
+4. [04-scroll_behavior](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/04-scroll_behavior)
