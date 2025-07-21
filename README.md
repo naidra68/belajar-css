@@ -185,5 +185,9 @@ Dokumentasi saya belajar CSS mulai dari awal sampai akhir, tidak ada yang spesia
     - [03-clamp](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/03-clamp)
     - [04-counter](https://github.com/naidra68/belajar-css/tree/main/02-css/17-function/04-counter)
 18. [18-property](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property)
-
+    - [01-cursor](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/01-cursor)
+    - [02-resize](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/02-resize)
+    - [03-list_style](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/03-list_style)
+    - [04-scroll_behavior](https://github.com/naidra68/belajar-css/tree/main/02-css/18-property/04-scroll_behavior)
+    
 Terima kasih sudah berkunjung :heart:
