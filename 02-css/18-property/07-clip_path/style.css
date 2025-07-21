@@ -1,0 +1,27 @@
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    background-color: dimgray;
+}
+.clip-path1 {clip-path: circle(50%);}
+.clip-path2 {clip-path: circle(50px);}
+.clip-path3 {clip-path: circle(100px at top);}
+.clip-path4 {clip-path: circle(200px at 0 0);}
+.clip-path5 {clip-path: ellipse(50% 20%);}
+.clip-path6 {clip-path: ellipse(100px 40px);}
+.clip-path7 {clip-path: ellipse(100px 40px at top);}
+.clip-path8 {clip-path: ellipse(250px 100px at 0 0);}
+.clip-path9 {clip-path: inset(10px 10px 10px 10px);}
+.clip-path10 {clip-path: inset(50px 50px 50px 50px);}
+.clip-path11 {clip-path: inset(100px 100px 0 0);}
+.clip-path12 {clip-path: inset(0px 50px 100px 50px);}
+.clip-path13 {clip-path: polygon(0 0, 100% 100%, 0 100%);}
+.clip-path14 {clip-path: polygon(0 0, 100px 100px, 0 200px);}
+.clip-path15 {clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+.clip-path16 {clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);}
+main {filter: drop-shadow(1px 1px 10px);}
+img {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
