@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.ordered-list, .unordered-list {
+    width: 90%;
+    display: flex;
+    margin: 2rem auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.ordered-list > *, .unordered-list > * {
+    margin: 2rem;
+}
+
+.decimal {list-style-type: decimal; background-color: #fc5c65;}
+.decimal-leading-zero {list-style-type: decimal-leading-zero; background-color: #eb3b5a;}
+.lower-roman {list-style-type: lower-roman; background-color: #fd9644;}
+.upper-roman {list-style-type: upper-roman; background-color: #fa8231;}
+.lower-greek {list-style-type: lower-greek; background-color: #fed330;}
+.lower-latin {list-style-type: lower-latin; background-color: #f7b731;}
+.upper-latin {list-style-type: upper-latin; background-color: #26de81;}
+.armenian {list-style-type: armenian; background-color: #20bf6b;}
+.georgian {list-style-type: georgian; background-color: #2bcbba;}
+.lower-alpha {list-style-type: lower-alpha; background-color: #0fb9b1;}
+.upper-alpha {list-style-type: upper-alpha; background-color: #45aaf2;}
+.none {list-style-type: none; background-color: #4b7bec;}
+.disc {list-style-type: disc; background-color: #3867d6;}
+.circle {list-style-type: circle; background-color: #a55eea;}
+.square {list-style-type: square; background-color: #8854d0;}
+.none {list-style-type: none; background-color: #778ca3;}
+
+.list-style-img {
+    list-style-image: url('star.png');
+    margin-left: 2rem;
+}
+.flex {
+    display: flex;
+}
+.inside > li, .outside > li, .list-style3 > li {
+    border: 2px solid;
+}
+.inside {
+    list-style-position: inside;
+    margin: 0 2rem;
+}
+.outside {
+    list-style-position: outside;
+    margin: 0 2rem;
+}
+
+.list-style1 {
+    list-style: decimal-leading-zero;
+    margin: 0 2rem;
+}
+.list-style2 {
+    list-style: url('star.png');
+    margin: 0 2rem;
+}
+.list-style3 {
+    list-style: inside;
+    margin: 0 2rem;
+}
