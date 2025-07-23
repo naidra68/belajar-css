@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+h1::selection, p::selection {
+    background-color: #101010;
+}
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+}
 
 main {
     display: flex;
