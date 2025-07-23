@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    flex-flow: row wrap;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article, aside {
+    width: 50%;
+}
+article {
+    background-image: linear-gradient(#1D53FC, #6657F7);
+}
+aside {
+    background-color: #101010;
+}
+.logo {
+    width: 80%;
+    margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logo img {
+    width: 6%;
+    margin-right: .5rem;
+}
+article h1 {
+    width: 60%;
+    font-size: 2rem;
+    margin: 4rem auto 2rem 4.5rem;
+}
+article > p {
+    width: 60%;
+    margin: 0 auto 3rem 4.5rem;
+    font-size: 1.3rem;
+}
+article a {
+    width: fit-content;
+    background-color: #9698FE;
+    display: block;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin-left: 4.5rem;
+    box-shadow: 1px 5px 0px #483EDA;
+    transition: all .3s linear;
+}
+article a:hover {
+    background-color: #483EDA;
+    box-shadow: none;
+    transform: translate(1px, 5px);
+}
+.icon-menu {
+    width: 80%;
+    display: flex;
+    margin: 3rem auto 0 2.5rem;
+}
+.icon-menu section {
+    padding: .5rem;
+}
+.icon-menu section img {
+    display: block;
+    margin: .5rem auto;
+}
+.icon-menu section p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+aside > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+.button a {
+    background-color: #2D53FE;
+    height: fit-content;
+    padding: .5rem 1.5rem;
+    margin-right: 3.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 300ms linear;
+}
+.button a:hover {
+    background-color: #233fb8;
+}
+aside > img {
+    display: block;
+    margin: 3rem auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    aside > img {
+        width: 70%;
+        margin: 5rem auto 0 auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    article { 
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    article h1 {
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+        font-size: 3rem;
+    }
+    article p {
+        width: 80%;
+        text-align: center; 
+        margin: 0 auto 2rem auto;
+        font-size: 1.5rem;
+    }
+    .logo, article a {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    aside {
+        display: none;
+    }
+}
