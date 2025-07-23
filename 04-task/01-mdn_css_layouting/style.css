@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+    width: 80vw;
+    height: 15vh;
+    line-height: 15vh;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+nav ul li a {
+    display: block;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.grid {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "article aside";
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+article > h1, aside > h2 {
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+article > img {
+    float: left;
+    margin-right: 1rem;
+    width: 30%;
+}
+article > p {
+    margin-bottom: 1rem;
+}
+.photo {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+.photo li {
+    flex-basis: calc(50% - 1rem);
+    margin: 0 0.1rem;
+}
+.photo li img {
+    width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        " article "
+        " aside ";
+    }
+    article > img {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: .5rem;
+    }
+    article > h1, aside > h2 {
+        text-align: center;
+    }
+    .photo li {
+        flex-basis: 100%;
+    }
+}
