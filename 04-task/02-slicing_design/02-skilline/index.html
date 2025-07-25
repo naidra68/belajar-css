@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/layout.css">
+    <title>Layout FlexBox</title>
+</head>
+<body>
+    <!-- Header Hero -->
+    <header class="path-header">
+        <div class="bg__header">
+            <div class="nav__header">
+                <a href="/flexbox/img/logo.png" target="_blank"><img src="img/logo.png" alt="logo"></a>
+                <nav>
+                    <input type="checkbox" name="" id="">
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <ul class="nav-items">
+                        <li><a class="nav-hover" href="#">Home</a></li>
+                        <li><a class="nav-hover" href="#">Careers</a></li>
+                        <li><a class="nav-hover" href="#">Blog</a></li>
+                        <li><a class="nav-hover" href="#">About Us</a></li>
+                        <li><button class="login">Login</button></li>
+                        <li><button class="sign-up">Sign Up</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__content">
+                <div class="left__content">
+                    <h3><span>Studying</span> Online is now much easier</h3>
+                    <p>Skilline is an interesting platform that will teach you in more an interactive way</p>
+                    <button class="btn_left_primary">Join for free</button>
+                    <button class="btn_left_secondary"><span>&#9654;</span>Watch how it works</button>
+                </div>
+                <img src="img/thumbnail.png" alt="thumbnail image">
+            </div>
+        </div>
+        <div class="notif-container">
+            <div class="notif-1">
+                <div class="notif1-top"><img src="img/thumb3.png" alt="Thumb3"></div>
+                <div class="notif1-bottom"><img src="img/thumb1.png" alt="Thumb1"></div>
+            </div>
+            <div class="notif-2">
+                <div class="notif2-top"><img src="img/thumb4.png" alt="Thumb4"></div>
+                <div class="notif2-bottom"><img src="img/thumb2.png" alt="Thumb2"></div>
+            </div>
+        </div>
+    </header>
+    <main class="path-main">
+    <!-- Company Trusted -->
+     <div class="company">
+        <p>Trusted by 5,000+ Companies Worldwide</p>
+        <div class="company__list">
+            <div><a href="https://www.google.com" target="_blank"><img class="google" src="img/hero-google.png" alt="Google" onmouseover="this.src='img/hero-google-color.png'" onmouseout="this.src='img/hero-google.png'"></a></div>
+            <div><a href="https://www.netflix.com" target="_blank"><img class="netflix" src="img/hero-netflix.png" alt="Netflix" onmouseover="this.src='img/hero-netflix-color.png'" onmouseout="this.src='img/hero-netflix.png'"></a></div>
+            <div><a href="https://www.airbnb.com" target="_blank"><img class="airbnb" src="img/hero-airbnb.png" alt="Airbnb" onmouseover="this.src='img/hero-airbnb-color.png'" onmouseout="this.src='img/hero-airbnb.png'"></a></div>
+            <div><a href="https://www.amazon.com" target="_blank"><img class="amazon" src="img/hero-amazon.png" alt="Amazon" onmouseover="this.src='img/hero-amazon-color.png'" onmouseout="this.src='img/hero-amazon.png'"></a></div>
+            <div><a href="https://www.facebook.com" target="_blank"><img class="facebook" src="img/hero-facebook.png" alt="facebook" onmouseover="this.src='img/hero-facebook-color.png'" onmouseout="this.src='img/hero-facebook.png'"></a></div>
+            <div><a href="https://www.grab.com" target="_blank"><img class="grab" src="img/hero-grab.png" alt="grab" onmouseover="this.src='img/hero-grab-color.png'" onmouseout="this.src='img/hero-grab.png'"></a></div>
+        </div>
+     </div>
+    <!-- All in One -->
+    <div class="card card__column">
+        <div class="card__header">
+            <h3><span>All-In-One</span> Cloud Software.</h3>
+            <p>Skilline is one powerful online software suite that combines all the<br> tools needed to run a successful school or office.</p>
+        </div>
+        <div class="card__list">
+            <div class="card__items">
+                <div class="card__items__header item1">
+                    <img src="img/ico1-invoice.png" alt="Invoice Ico">
+                </div>
+                <div class="card__items__description">
+                    <h4>Online Billing,<br> Invoicing, & Contracts</h4>
+                    <p>Simple and secure control of your organization's financial and legal transactions. Send customized invoices and contracts.</p>
+                </div>
+            </div>
+            <div class="card__items">
+                <div class="card__items__header item2">
+                    <img src="img/ico2-calendar.png" alt="Calendar Ico">
+                </div>
+                <div class="card__items__description">
+                    <h4>Easy Scheduling &<br> Attendance Tracking</h4>
+                    <p>Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance.</p>
+                </div>
+            </div>
+            <div class="card__items">
+                <div class="card__items__header item3">
+                    <img src="img/ico3-users.png" alt="Users Ico">
+                </div>
+                <div class="card__items__description">
+                    <h4>Customer Tracking</h4>
+                    <p>Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sklii Description -->
+    <div class="card card__column">
+        <div class="card__header">
+            <h3><span>What is</span> Skilline?</h3>
+            <p>Skilline is a platform that allows educators to create online classes whereby they can<br> store the course materials online; manage assignments, quizzes and exams; monitor<br> due dates; grade results and provide students with feedback all in one place.</p>
+        </div>
+        <div class="card__img">
+            <div class="card__img__items instructors">
+                <h3 class="card__img__heading">For Instructors</h3>
+                <button class="btn btn__instructors">Start a class today</button>
+            </div>
+            <div class="card__img__items student">
+                <h3 class="card__img__heading">For Students</h3>
+                <button class="btn btn__student">Enter access today</button>
+            </div>
+        </div>
+    </div>
+    <!-- Marketing Ads 1 -->
+    <div class="card card__row">
+        <div class="bullet">
+            <span class="bullet1"></span>
+            <span class="bullet2"></span>
+        </div>
+        <div class="card__header card__marketing">
+            <h3><span>Everything you can do in a physical classroom,</span> you can do with Skilline</h3>
+            <p>Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
+            <a class="btn__normal" href="#">Learn More</a>
+        </div>
+        <div class="card__marketing__img">
+            <img src="img/marketing-img.png" alt="Marketing Ads - confident teacher explaining lesson">
+        </div>
+    </div>
+    <!-- Our Features -->
+     <div class="card card__column">
+        <div class="card__header">
+            <h3><span>Our</span> Features</h3>
+            <p>This very extraordinary feature, can make learning activities more efficient</p>
+        </div>
+        <div class="card__features">
+            <div class="card__img__features">
+                <img src="img/features-img.png" alt="Features Image">
+            </div>
+            <div class="card__features__description">
+                <h3>A <span>user interface</span> designed for the classroom</h3>
+                <div class="card__features__list">
+                    <div class="card__items_list">
+                        <img src="img/list-ico1.png">
+                        <p><br>Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
+                    </div>
+                    <div class="card__items_list">
+                        <img src="img/list-ico2.png">
+                        <p><br>TA’s and presenters can be moved to the front of the class.</p>
+                    </div>
+                    <div class="card__items_list">
+                        <img src="img/list-ico3.png">
+                        <p><br>Teachers can easily see all students and class data at one time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+        <div class="card card__row">
+            <div class="card__header card__marketing">
+                <h3>Tools <span>For Teachers And <br>Learners</span></h3>
+                <p>Class has a dynamic set of teaching tools built to be deployed and used during class.
+                    Teachers can handout assignments in real-time for students to complete and submit.</p>
+            </div>
+            <div class="card__marketing__img">
+                <img src="img/features-img2.png" alt="Marketing Ads - confident teacher explaining lesson">
+            </div>
+        </div>
+        <div class="card card__row">
+            <div class="card__marketing__img">
+                <img src="img/features-img3.png" alt="Marketing Ads - confident teacher explaining lesson">
+            </div>
+            <div class="card__header card__marketing">
+                <h3><span>Assessments,<br></span> Quizzes, <span>Tests</span></h3>
+                <p>Easily launch live assignments, quizzes, and tests.
+                    Student results are automatically entered in the online gradebook.</p>
+            </div>
+        </div>
+        <div class="card card__row">
+            <div class="card__header card__marketing">
+                <h3>Class Management<br><span>Tools for Educators</span></h3>
+                <p>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.
+                </p>
+            </div>
+            <div class="card__marketing__img">
+                <img src="img/features-img4.png" alt="Marketing Ads - confident teacher explaining lesson">
+            </div>
+         </div>
+         <div class="card card__row">
+            <div class="card__marketing__img">
+                <img src="img/features-img5.png" alt="Marketing Ads - confident teacher explaining lesson">
+            </div>
+            <div class="card__header card__marketing">
+                <h3><span>One-on-One</span><br> Discussions</h3>
+                <p>Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
+            </div>
+        </div>
+        <div class="btn__more center">
+            <a href="#">See more features</a>
+        </div>
+        <!-- Integrations -->
+        <div class="card">
+            <div class="integrations">
+                <div class="left__integrations">
+                    <img src="img/features-img6.png" alt="Features Image">
+                </div>
+                <div class="right__integrations">
+                    <span class="line_straight"></span><label>Integrations</label>
+                    <h3>200+ educational tools and platform <b>integrations</b></h3>
+                    <p>Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.</p>
+                    <div class="btn__more">
+                        <a href="#">See All Integrations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial -->
+        <div class="card">
+            <div class="integrations">
+                <div class="right__integrations">
+                    <span class="line_straight"></span><label>Testimonial</label>
+                    <h3>What They Say?</h3>
+                    <p>Skilline has got more than 100k positive ratings from our users around the world.</p>
+                    <p>Some of the students and teachers were greatly helped by the Skilline.</p>
+                    <p>Are you too? Please give your assessment</p>
+                    <a href="#" class="assessment-button">
+                        <span class="button__text">Write your assessment</span>
+                        <span class="arrow__container">&rarr;</span>
+                    </a>
+                </div>
+                <div class="left__integrations">
+                    <img src="img/testimonial.png" alt="Testimonials">
+                </div>
+            </div>
+        </div>
+        <!-- News -->
+        <div class="card card__column">
+            <div class="card__header">
+                <h3><span>Lastest News and Resources</span></h3>
+                <p>See the developments that have occurred to Skillines in the world</p>
+            </div>
+            <div class="card__news">
+               <div class="left__card__news">
+                    <img src="img/news1.png" alt="News Thumbnail 1">
+                    <span class="btn__label">News</span>
+                    <h4>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h4>
+                    <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+                    <a class="btn__normal" href="#">Read more</a>
+               </div>
+               <div class="right__card__news">
+                    <div class="card__news__list">
+                        <div class="card__news__img img1">
+                            <span class="btn__mini__label">Press Release</span>
+                        </div>
+                        <div class="card__news__description">
+                            <h5>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h5>
+                            <p>Class Technologies Inc., the company that created Class,...</p>
+                        </div>
+                    </div>
+                    <div class="card__news__list">
+                        <div class="card__news__img img2">
+                            <span class="btn__mini__label">News</span>
+                        </div>
+                        <div class="card__news__description">
+                            <h5>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h5>
+                            <p>Zoom was never created to be a consumer product. Nonetheless, the...</p>
+                        </div>
+                    </div>
+                    <div class="card__news__list">
+                        <div class="card__news__img img3">
+                            <span class="btn__mini__label">News</span>
+                        </div>
+                        <div class="card__news__description">
+                            <h5>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h5>
+                            <p>This year, investors have reaped big financial returns from betting on Zoom...</p>
+                        </div>
+                    </div>
+               </div>
+               <div class="hidden hidden1">
+                    <div class="news1">
+                        <img src="img/news1.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h4>
+                        <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                    <div class="news2">
+                        <img src="img/news2.png" alt="News Thumbnail 1">
+                        <span class="btn__label">Press Release</span>
+                        <h4>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
+                        <p>Class Technologies Inc., the company that created Class,...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="hidden hidden2">
+                    <div class="news3">
+                        <img src="img/news3.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
+                        <p>Zoom was never created to be a consumer product. Nonetheless, the...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                    <div class="news4">
+                        <img src="img/news4.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h4>
+                        <p>This year, investors have reaped big financial returns from betting on Zoom...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="hidden-small">
+                    <div class="news1">
+                        <img src="img/news1.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h4>
+                        <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                    <div class="news2">
+                        <img src="img/news2.png" alt="News Thumbnail 1">
+                        <span class="btn__label">Press Release</span>
+                        <h4>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
+                        <p>Class Technologies Inc., the company that created Class,...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                    <div class="news3">
+                        <img src="img/news3.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
+                        <p>Zoom was never created to be a consumer product. Nonetheless, the...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                    <div class="news4">
+                        <img src="img/news4.png" alt="News Thumbnail 1">
+                        <span class="btn__label">News</span>
+                        <h4>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h4>
+                        <p>This year, investors have reaped big financial returns from betting on Zoom...</p>
+                        <a class="btn__normal" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="path-footer">
+        <div class="footer__container">
+            <div class="footer__header">
+                <img src="img/footer-img.png" alt="Footer Img">
+                <span class="lines"></span>    
+                <p>Virtual Class for Zoom</p>
+            </div>
+            <div class="footer__main">
+                <h2>Subscribe to get our Newsletter</h2>
+                <div class="subscribe">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <a href="#" class="btn__subscribe">Subscribe</a>
+                </div>
+            </div>
+            <div class="footer__end">
+                <ul class="list_nav_footer">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+                <p>&COPY; 2025 Class Technologies Inc. </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
